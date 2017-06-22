@@ -2,7 +2,7 @@ FROM php:5-apache
 
 WORKDIR /app/
 
-ENV CRAFTURL 'https://download.craftcdn.com/craft/2.6/2.6.2952/Craft-2.6.2952.zip'
+ENV CRAFTURL 'https://download.craftcdn.com/craft/2.6/2.6.2983/Craft-2.6.2983.zip'
 
 # create craft version
 COPY scripts/ /app/scripts/
